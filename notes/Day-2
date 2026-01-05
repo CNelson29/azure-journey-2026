@@ -1,3 +1,31 @@
+DAY 02 — AZ-900 | Gestión de costes en Azure
+
+3 factores que afectan costos en Azure
+
+Región (ubicación): el precio puede variar según la región.
+
+Servicio: no cuesta igual una VM que un Storage, SQL, etc.
+
+Tamaño/consumo (SKU y uso): CPU/RAM, tipo de disco, GB almacenados, horas encendida, tráfico, requests, etc.
+
+Diferencia: Pricing Calculator vs TCO Calculator
+
+Pricing Calculator: sirve para estimar cuánto costaría una solución en Azure antes de implementarla (ej. costo mensual aproximado).
+
+TCO Calculator: sirve para comparar costos entre infraestructura on-premises (física) vs Azure y estimar el costo total/ahorro al migrar.
+
+¿Qué es Microsoft Cost Management?
+
+Es el área/herramienta para ver y analizar gastos, revisar consumo, crear presupuestos, configurar alertas, y controlar costos por suscripción/servicio (y con tags).
+
+¿Para qué sirven los Tags?
+
+Sirven para etiquetar recursos (por ejemplo: Proyecto, Departamento, Dueño, Ambiente) y así agrupar, filtrar, segmentar y reportar costos con más control.
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3 factores que afectan costos en Azure
 La zona o localizacion, el servicio y las especificaciones de los mismos (Los recursos). 
 Diferencia: Pricing Calculator vs TCO Calculator
