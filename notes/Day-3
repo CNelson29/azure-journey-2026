@@ -1,0 +1,21 @@
+SLA (1–2 líneas):
+
+¿Qué es un SLA y qué significa 99.9%?
+
+Service lifecycle (2 bullets):
+
+Preview: qué significa y qué implicación tiene
+
+GA (General Availability): qué implica
+
+RBAC vs Policy vs Locks (1–2 líneas cada uno):
+
+RBAC: controla quién puede hacer qué (permisos/roles).
+
+Azure Policy: controla qué está permitido (reglas y cumplimiento).
+
+Resource Locks: evita borrar o modificar por accidente.
+
+Jerarquía (1 línea):
+
+Management Groups → Subscriptions → Resource Groups → Resources
