@@ -1,21 +1,25 @@
-SLA (1–2 líneas):
+SLA (1–2 líneas)
+Un SLA (Service Level Agreement) es el compromiso de disponibilidad/tiempo activo que el proveedor garantiza para un servicio. 99.9% significa que el servicio puede estar caído aprox. 0.1% del tiempo (≈ 43.2 min/mes).
+Service lifecycle (2 bullets)
 
-¿Qué es un SLA y qué significa 99.9%?
 
-Service lifecycle (2 bullets):
+Preview: funcionalidad en pruebas (puede cambiar), sin garantía completa y normalmente SLA limitado o sin SLA; se usa para evaluar, no para cargas críticas.
 
-Preview: qué significa y qué implicación tiene
 
-GA (General Availability): qué implica
+GA (General Availability): versión oficial y estable, con SLA, soporte completo y lista para producción.
 
-RBAC vs Policy vs Locks (1–2 líneas cada uno):
 
-RBAC: controla quién puede hacer qué (permisos/roles).
+RBAC vs Policy vs Locks (1–2 líneas cada uno)
 
-Azure Policy: controla qué está permitido (reglas y cumplimiento).
 
-Resource Locks: evita borrar o modificar por accidente.
+RBAC: define quién puede hacer qué en Azure (roles/permisos).
 
-Jerarquía (1 línea):
 
+Azure Policy: define qué está permitido crear/configurar (reglas y cumplimiento; puede auditar o denegar).
+
+
+Resource Locks: bloquea recursos para evitar borrados o cambios accidentales (Delete/ReadOnly).
+
+
+Jerarquía (1 línea)
 Management Groups → Subscriptions → Resource Groups → Resources
